@@ -1,0 +1,136 @@
+header {
+  display: flex;
+  border: 2px solid #e4e3e3;
+  padding: 0.5rem 0.5rem;
+  position: relative;
+  background-color: #e4e3e3;
+}
+
+body {
+  background-image: url("/img/back.jpg");
+}
+
+.nav ul {
+  display: flex;
+  list-style-type: none;
+  gap: 1.2rem;
+  margin-left: 63rem;
+  font-size: 1.2rem;
+}
+
+.nav ul li {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.h-img {
+  position: absolute;
+  top: 1rem;
+  width: 5rem;
+}
+
+/* Hero section */
+.container {
+  padding: 1rem 1rem;
+  gap: 2rem;
+  display: flex;
+}
+.hero-img {
+}
+.hero-text {
+  width: 100%;
+  padding: 0 2rem;
+  margin-top: 6rem;
+  font-size: 1.3rem;
+  line-height: 1.3;
+  background-color: #e4e3e3;
+}
+.pr-img {
+}
+
+.head {
+  font-size: 1.6rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+.skills {
+  padding-top: 10rem;
+}
+.s-container {
+  text-align: left;
+
+  border: solid #fa3434;
+}
+.s-container ul li {
+  font-size: 1.3rem;
+  line-height: 1.9;
+}
+
+h2 {
+  font-size: 2rem;
+  margin: 2rem 2rem;
+}
+
+.main {
+  font-size: 1.4rem;
+  font-weight: 700;
+  display: flex;
+  justify-content: space-around;
+  padding: 3rem 2rem;
+}
+
+.f {
+  font-size: 1.4rem;
+  font-weight: 700;
+  display: flex;
+  justify-content: space-around;
+  padding: 7rem 2rem;
+
+  box-shadow: 0.2rem 0.2rem 0.2rem #1e0101;
+  background-color: #e4e3e3;
+}
+
+footer {
+  background-color: #e4e3e3;
+  padding: 5rem 0;
+  box-shadow: 0.2rem 0.2rem 0.2rem #362b2b;
+}
+.f-img {
+  width: 5rem;
+  margin-left: 9rem;
+}
+
+.text {
+  margin-left: 9rem;
+  line-height: 1.5;
+}
+.resume {
+  background-color: #e4e3e3;
+  padding: 2rem 2rem;
+  box-shadow: 0.2rem 0.2rem 0.2rem #362b2b;
+}
+.res {
+  font-size: 1.3rem;
+  font-weight: 700;
+  margin-bottom: 2rem;
+}
+.btn {
+  padding: 0.4rem 0.4rem;
+  background-color: #fa3434;
+  border-radius: 9px;
+  margin-top: 1.5rem;
+}
+.btn a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.1rem;
+}
+
+.btn:hover {
+  background-color: #000000;
+}
+
+marquee {
+  margin-top: 1rem;
+}
